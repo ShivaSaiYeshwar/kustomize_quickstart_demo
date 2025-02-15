@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api-1-containter
-        image: tutum/hello-world
+        image: agileguru/content:1.2.0-linux
         imagePullPolicy: Always
         envFrom:
           - configMapRef:
